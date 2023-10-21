@@ -1,7 +1,3 @@
-/* PUTA QUE PARIU QUE PROGRAMA FEIO!!!!!!!!!
-    PROGRAMA MAIS FEIO QUE EU JÁ ESCREVI!! */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,7 +5,7 @@
 #define MAXLEN 50000
 
 int lengthOfLongestSubstring(char * s){
-    if (*s == '\0') return 0; // test case de merda
+    if (*s == '\0') return 0;
 
     int s_Len = strlen(s); int i;
     int size_Sub = 0; int Array_s[MAXLEN];
